@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  rsa-generator:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - TZ=Asia/Tokyo
+    tty: true

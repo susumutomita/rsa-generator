@@ -1,2 +1,7 @@
 cryptography
 argparse
+pre-commit
+yamllint
+black
+pylint
+flake8

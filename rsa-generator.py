@@ -1,10 +1,11 @@
 import argparse
-import json
 import binascii
+import json
+
+from cryptography.exceptions import InvalidSignature
+from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding, rsa
-from cryptography.hazmat.backends import default_backend
-from cryptography.exceptions import InvalidSignature
 
 
 def pad_hex_string(hex_str):
