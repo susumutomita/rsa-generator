@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
   gnupg \
   gcc \
   bsdmainutils \
+  vim-common \
   make
 
 WORKDIR /app

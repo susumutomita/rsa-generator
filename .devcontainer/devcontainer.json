@@ -1,0 +1,23 @@
+{
+  "name": "rsa-generator",
+  "dockerComposeFile": "../docker-compose.yaml",
+  "service": "rsa-generator",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "streetsidesoftware.code-spell-checker",
+        "github.vscode-github-actions",
+        "github.copilot",
+        "github.copilot-labs",
+        "github.copilot-chat",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.makefile-tools",
+        "ms-python.python",
+        "ms-python.flake8"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
